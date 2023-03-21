@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Deisgn- Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,300;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" </a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT </a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+
+                </ul>
+                
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>OUR COURSES</h1>
+    </section>
+
+
+      <!----- Course-------->
+
+      <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediarte</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Peleent nandi3 addjai hebadis nxidiaLN Ajn OIWID DIEUs eajnfuene.
+                    eejflkejj jajej  ajso bw fjenjio eni eoq fnfi qkanl v aei vkle alkdnie
+                 
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Peleent nandi3 addjai hebadis nxidiaLN Ajn OIWID DIEUs eajnfuene.
+                    eejflkejj jajej  ajso bw fjenjio eni eoq fnfi qkanl v aei vkle alkdnie
+                    
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Peleent nandi3 addjai hebadis nxidiaLN Ajn OIWID DIEUs eajnfuene.
+                    eejflkejj jajej  ajso bw fjenjio eni eoq fnfi qkanl v aei vkle alkdnie
+                 
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--------FACILITIES--------->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amir, comsdrosnns adipidcing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+            <img src="library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum sdolo amfoe afaosjfo amoa elit
+                ksmaoie kskaoqi alksqoqi wkmowo nilla.
+            </p>
+            </div>
+            <div class="facilities-col">
+                <img src="basketball.png">
+                <h3>Largest Play GRound</h3>
+                <p>Lorem ipsum sdolo amfoe afaosjfo amoa elit
+                    ksmaoie kskaoqi alksqoqi wkmowo nilla.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum sdolo amfoe afaosjfo amoa elit
+                    ksmaoie kskaoqi alksqoqi wkmowo nilla.
+                </p>
+            </div>
+        </div>
+    </section>
+
+     <!---------Footer----------->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Peleent nandi3 addjai hebadis nxidiaLN Ajn OIWID DIEUs eajnfuene.<br>
+            eejflkejj jajej  ajso bw fjenjio eni eoq fnfi qkanl v aei vkle alkdnie
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+     </section>
+
+
+
+
+
+
+    <!--Javascript for toggle menu-->
+    <script>
+        var  navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
